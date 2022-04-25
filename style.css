@@ -1,0 +1,131 @@
+
+
+/*Resets*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ===========================================
+Custom Properties
+=========================================== */
+
+:root{
+    /*colors*/
+    --clr-cyan: hsl(193, 38%, 86%);
+    --clr-neon-green: hsl(150, 100%, 66%);
+
+    --clr-grayish-blue: hsl(217, 19%, 38%);
+    --clr-dark-grayish-blue: hsl(217, 19%, 24%);
+    --clr-dark-blue: hsl(218, 23%, 16%);
+
+    /*font*/
+    --ff-manrope: "Manrope", san-serif;
+
+}
+
+
+img,
+picture{
+    display: block;
+}
+
+
+/* ===========================================
+Layout
+=========================================== */
+body{
+    background: var(--clr-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--ff-manrope);
+
+}
+
+.advice-container{
+    width: 35rem;
+    height: 20rem;
+    background-color: var(--clr-grayish-blue);
+    border-radius: 1rem;
+    position: relative;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.icon-dice{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: var(--clr-neon-green);
+    position: absolute;
+    bottom: -20px;
+    align-self: center;
+}
+
+.icon-dice:hover {
+    box-shadow: 0 0 40px var(--clr-neon-green);
+    cursor: pointer;
+}
+
+.advice-number{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--clr-neon-green);
+    font-size: 15px;
+    font-weight: bold;
+    margin: 2.2rem 0 2rem 0;
+   
+}
+
+.advice{
+    color: white;
+    font-size: 1.8rem;
+    padding-inline: 1rem;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.divider {
+    position: absolute;
+    top:80%;
+    align-self: center;
+    width: 100%;
+}
+
+.attribution {
+    position: fixed;
+    inset: auto 0 0 0;
+    padding: .5rem;
+    text-align: center;
+    color: white;
+}
+
+.attribution a{
+    color: var(--clr-neon-green);
+}
+
+
+
+
+
+@media (max-width:768px){
+    .advice-container{
+        width: 90vw;
+    }
+
+    .divider{
+        content: url(./images/pattern-divider-mobile.svg);
+    }
+}
