@@ -128,4 +128,7 @@ body{
     .divider{
         content: url(./images/pattern-divider-mobile.svg);
     }
+    
+    .attribution{
+        display: none;
 }
