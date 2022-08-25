@@ -34,8 +34,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://get-good-advice.netlify.app/))
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://get-good-advice.netlify.app/))
+- Solution URL: [https://get-good-advice.netlify.app/]
+- Live Site URL: [https://get-good-advice.netlify.app/]
 
 ## My process
 
