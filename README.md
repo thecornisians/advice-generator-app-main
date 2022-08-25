@@ -22,9 +22,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### The challenge
 
-Users should be able to:
-
-- Click On Dice and Get advice
 
 
 ### Screenshot
@@ -33,12 +30,12 @@ Users should be able to:
 
 
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://get-good-advice.netlify.app/))
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://get-good-advice.netlify.app/))
 
 ## My process
 
