@@ -49,12 +49,12 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### What I learned
 
-- Learnt how to use fetch to get data from APIs
+- Learnt how to use fetch to get data from APIs and render it to the DOM
 
 
 ### Continued development
 
-Looking forward to exploring more with APIs and DOM manipulation
+Looking forward to exploring more with APIs and DOM manipulation and bilding custom API
 
 
 
@@ -63,7 +63,6 @@ Looking forward to exploring more with APIs and DOM manipulation
 ## Author
 
 - Website - [Cornelius Owusu-Ansah](http://corneliusowans.netlify.com/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/thecornisians)
 - Twitter - [thecornsians](https://www.twitter.com/thecornisians)
 
 
